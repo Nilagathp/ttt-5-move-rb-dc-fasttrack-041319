@@ -6,6 +6,6 @@ require_relative '../lib/move.rb'
 board = array.new(9, " ")
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
-input = gets.strip
+input =g ets.strip
 move(board, input, "X")
 display_board(board)
